@@ -7,18 +7,6 @@
         <mxCell id="lehRbZBesli6KVulap8z-20" value="Frontend" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry width="800" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="lehRbZBesli6KVulap8z-20" source="lehRbZBesli6KVulap8z-25">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="180" as="sourcePoint" />
-            <mxPoint x="110" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="lehRbZBesli6KVulap8z-20">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="130" y="160" as="sourcePoint" />
-            <mxPoint x="240" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lehRbZBesli6KVulap8z-25" value="React app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-20">
           <mxGeometry x="50" y="110" width="120" height="60" as="geometry" />
         </mxCell>
@@ -51,6 +39,14 @@
         </mxCell>
         <mxCell id="lehRbZBesli6KVulap8z-24" value="Messaging and Caching" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="1080" width="800" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lehRbZBesli6KVulap8z-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="lehRbZBesli6KVulap8z-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lehRbZBesli6KVulap8z-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lehRbZBesli6KVulap8z-25" target="lehRbZBesli6KVulap8z-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
