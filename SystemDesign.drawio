@@ -78,6 +78,9 @@
         <mxCell id="lehRbZBesli6KVulap8z-56" value="Vercel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-22">
           <mxGeometry x="50" y="120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lehRbZBesli6KVulap8z-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="lehRbZBesli6KVulap8z-22" source="lehRbZBesli6KVulap8z-59" target="lehRbZBesli6KVulap8z-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lehRbZBesli6KVulap8z-59" value="Hetzner VPS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-22">
           <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
         </mxCell>
@@ -86,14 +89,6 @@
         </mxCell>
         <mxCell id="lehRbZBesli6KVulap8z-62" value="Evolution API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-22">
           <mxGeometry x="680" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-23" value="Database" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="1220" width="820" height="270" as="geometry">
-            <mxRectangle y="810" width="40" height="80" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-24" value="Messaging and Caching" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="950" width="820" height="270" as="geometry" />
         </mxCell>
         <mxCell id="lehRbZBesli6KVulap8z-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lehRbZBesli6KVulap8z-25" target="lehRbZBesli6KVulap8z-31">
           <mxGeometry relative="1" as="geometry" />
