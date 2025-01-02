@@ -1,56 +1,56 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="Página-1" id="UZA3DpwESCK6koD5ipCv">
-    <mxGraphModel dx="984" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1425" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lehRbZBesli6KVulap8z-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="580" height="260" as="geometry" />
+        <mxCell id="lehRbZBesli6KVulap8z-20" value="Frontend" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="800" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-1" value="Frontend" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="60" width="140" height="90" as="geometry" />
+        <mxCell id="lehRbZBesli6KVulap8z-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="lehRbZBesli6KVulap8z-20" source="lehRbZBesli6KVulap8z-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="180" as="sourcePoint" />
+            <mxPoint x="110" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-2" value="React app" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-1">
+        <mxCell id="lehRbZBesli6KVulap8z-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="lehRbZBesli6KVulap8z-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="160" as="sourcePoint" />
+            <mxPoint x="240" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lehRbZBesli6KVulap8z-25" value="React app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-20">
+          <mxGeometry x="50" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lehRbZBesli6KVulap8z-21" value="Backend" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="270" width="800" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lehRbZBesli6KVulap8z-26" value="Websocket&lt;div&gt;(real-time updates)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-21">
+          <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lehRbZBesli6KVulap8z-28" value="Authentication, notification, data retrieval API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-21">
+          <mxGeometry x="190" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lehRbZBesli6KVulap8z-31" value="FastAPI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-21">
+          <mxGeometry x="360" y="40" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lehRbZBesli6KVulap8z-32" value="User Service" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-31">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-3" value="Deploy into Vercel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-1">
+        <mxCell id="lehRbZBesli6KVulap8z-33" value="Notification Service" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-31">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-5" value="Backend" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="60" width="140" height="90" as="geometry" />
+        <mxCell id="lehRbZBesli6KVulap8z-34" value="Subscription Service" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-31">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-6" value="Python FastAPI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-5">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        <mxCell id="lehRbZBesli6KVulap8z-22" value="Infrastructure" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="540" width="800" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-7" value="Deploy into Hetzner VPS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-5">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="lehRbZBesli6KVulap8z-23" value="Database" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="810" width="800" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-8" value="Database" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="60" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-9" value="Firebase" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-8">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-11" value="Message queue" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="180" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-12" value="RabbitMQ/Kafka?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-11">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-13" value="Caching" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="180" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-14" value="Redis" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-13">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-15" value="Authentication" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="180" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-16" value="OAuth2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lehRbZBesli6KVulap8z-15">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lehRbZBesli6KVulap8z-18" value="Components" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="20" width="70" height="30" as="geometry" />
+        <mxCell id="lehRbZBesli6KVulap8z-24" value="Messaging and Caching" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1080" width="800" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
